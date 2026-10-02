@@ -1,0 +1,17 @@
+[
+    {
+        "username" : "practice",
+        "password" : "SuperSecretPassword",
+        "expected" : "Success"
+    },
+    {
+        "username" : "asasa",
+        "password" : "SuperSecretPassword!",
+        "expected" : "Invalidusername"
+    },
+    {
+        "username" : "practice",
+        "password" : "WrongPassword",
+        "expected" : "Invalidpassword"
+    }
+]

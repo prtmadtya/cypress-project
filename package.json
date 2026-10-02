@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "unset NODE_OPTIONS && cypress run",
+    "cypress:open": "unset NODE_OPTIONS && cypress open"
   },
   "keywords": [],
   "author": "",

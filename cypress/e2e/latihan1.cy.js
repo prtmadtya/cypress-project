@@ -37,6 +37,4 @@ describe('Latihan 1', () => {
             cy.get('h3').should('contain.text', 'File Uploaded!')           
 
     })
-
-
 })
